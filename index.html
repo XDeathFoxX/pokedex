@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/W3Wt1QrK/pokemon-logo-PNG12.png">
+</head>
+<body>
+    <header class="form">
+        <picture >
+            <img src="https://i.postimg.cc/C5zRkxF0/International-Pok-mon-logo-svg.png" alt="logo_pokemon" width="300" height="150"/>
+        </picture>
+        <br>
+        <form action="" method="get">
+            <input type="number" class="pesquisa" name="" id="idpesquisa">
+            <button id="btn-go" class="botao" >Buscar</button>
+        </form>
+    </header>
+    <main class="main">
+        <section id="infos" class="infos">
+            <p id="idpoke" class="idpoke">Id : <span id="idpokemon" class="idpokemon"></span></p>
+            <p id="nomepokemon"  >Nome do Pokemon : <span id="nomepoke" class="nomepoke"></span></p>
+            <p id="tipopoke" class="">Tipos do Pokemon : <span id="tipo1"> </span> <span id="tipo2"> </span></p>
+
+            <picture>
+                <img src="" alt="foto_tipo_1" id="tipo1Image" class="" width="50" height="50"/> 
+                <img src="" alt="foto_tipo_2" id="tipo2Image" class="" width="50" height="50"/>
+            </picture>
+
+            <br>
+
+            <picture>
+                <img src="" alt="foto_do_pokemon" id="fotopokemon"  class="" width="250" height="250" />
+            </picture>
+
+            <p id="status" class="">Status</p>
+
+            <p id="hp" class="">HP : <span id="hp_poke" class=""></span></p>
+
+            <div class="barraHp"><div></div></div>
+
+            <p id="attack" class="">Attack : <span id="attack_poke" class=""></span></p>
+            
+            <div class="barraAttack"><div></div></div>
+
+            <p id="defense" class="">Defense : <span id="defense_poke" class=""></span></p>
+
+            <div class="barraDefense"><div></div></div>
+
+            <p id="specialattack" class="">Special Attack : <span id="special_attack_poke" class=""></span></p>
+
+            <div class="barraSpecialAttack"><div></div></div>
+
+            <p id="specialdefense" class="">Special Defense : <span id="special_defense_poke" class=""></span></p>
+            
+            <div class="barraSpecialDefense"><div></div></div>
+
+            <p id="speed0" class="">Speed : <span id="speed" class=""></span></p>
+
+            <div class="barraSpeed"><div></div></div>
+
+            <p id="weight0" class="">Weight : <span id="weight" class=""></span><span> LBs</span><span> / Quilos : (<span id="quilos" class=""></span> Kg)</span></p>
+        </section>
+
+        <script async src="main.js" defer>
+        </script>
+    </main>
+    <footer class="footer">
+        <p>Site criado por Valdemir Voltatoni Junior 👨🏻‍💻</p>
+        <p>GitHub : <a href="https://github.com/XDeathFoxX" target="_blank">https://github.com/XDeathFoxX</a></p>
+    </footer>
+</body>
+</html>
